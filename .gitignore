@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+log/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env.local
+.env.*.local
+
+# dotenv environment variables files used by Nuxt
+.nuxt/
+
+# Optional: bundler caches
+.cache/
+
+# Optional: TypeScript caches
+*.tsbuildinfo
+
+# Optional: build output
+dist/
+build/
+out/
+
+# Optional: static site output
+public/

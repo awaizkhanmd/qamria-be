@@ -4,6 +4,7 @@ const cors = require('cors');
 const reservationRoutes = require('./routes/reservation.Routes');
 const userRoutes = require('./routes/user.Routes');
 const os = require('os'); // Import os module
+const settingsRoutes = require('./routes/settings.Routes.js');
 require('dotenv').config();
 
 const app = express();
@@ -19,6 +20,7 @@ app.use(cors());
 // Use the defined routes
 app.use('/api', reservationRoutes);
 app.use('/api', userRoutes);
+app.use('/api', settingsRoutes);
 
 // Function to get the local network IP address
 function getNetworkIP() {
